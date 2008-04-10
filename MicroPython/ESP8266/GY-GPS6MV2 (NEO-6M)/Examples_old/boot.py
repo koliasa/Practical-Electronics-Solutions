@@ -27,8 +27,8 @@ def wait_for_gps_fix(gps):
         pass
 
 # Виклик функцій для ініціалізації
-ssid = "Koliasa"
-password = "0662500805"
+ssid = "You_SID"
+password = "YouPassword"
 connect_wifi(ssid, password)
 
 gps_uart = init_gps_uart()
