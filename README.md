@@ -4,7 +4,8 @@ Welcome to the Practical Electronics Solutions repository, a collection of Ardui
 
 ## Examples
 
-- **Smart Home Security:** A project that uses motion sensors and an Arduino board to detect intruders and send alerts to your phone.
+- **Smart Home Security with AI:** This repository contains an example of using an Arduino board with an OV7670 camera and a Face Recognition library to build a smart home security system that can recognize authorized individuals and unlock the door for them.
+https://github.com/koliasa/Practical-Electronics-Solutions/tree/main/Smart%20Home%20Security%20with%20AI/v1
 
 - **Energy Monitor:** A project that monitors your home's energy consumption and displays it on an LCD screen. You can use the data to optimize your energy usage and save money.
 
