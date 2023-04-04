@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Don't forget to replace the board type and port (/dev/ttyUSB0) with the appropriate values for your setup.
 # Clone required libraries
 git clone https://github.com/jbaldwin/libfacedetection.git
 git clone https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library.git
