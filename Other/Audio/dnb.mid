@@ -1,0 +1,31 @@
+MFile 1 1 480
+MTrk
+0 Tempo 120
+0 Meta TrkName "Drum and Bass"
+0 Meta TimeSig 4/4 24 8
+0 Meta KeySig C major
+0 PrCh ch=1 p=0
+0 On ch=1 n=36 v=100
+240 Off ch=1 n=36 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=38 v=100
+240 Off ch=1 n=38 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=42 v=100
+240 Off ch=1 n=42 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=46 v=100
+240 Off ch=1 n=46 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=36 v=100
+240 Off ch=1 n=36 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=38 v=100
+240 Off ch=1 n=38 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=42 v=100
+240 Off ch=1 n=42 v=0
+0 PrCh ch=1 p=0
+0 On ch=1 n=46 v=100
+240 Off ch=1 n=46 v=0
+MTrkEnd
