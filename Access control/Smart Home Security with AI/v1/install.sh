@@ -23,7 +23,3 @@ rm -rf Adafruit-GFX-Library
 rm -rf Arduino-LiquidCrystal-I2C-library
 rm -rf WiFiManager
 rm -rf esp8266
-
-## License
-
-This code is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
