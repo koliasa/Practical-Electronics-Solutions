@@ -10,7 +10,9 @@ This repository contains confidential information and is only accessible to auth
 
 To access the contents of this repository, you must first be granted permission by an authorized administrator. Once you have been granted access, you can clone the repository to your local machine using the following command:
 
-`git clone https://github.com/koliasa/Practical-Electronics-Solutions.git`
+```bash
+git clone https://github.com/koliasa/Practical-Electronics-Solutions.git
+```
 
 ## Contributing
 
