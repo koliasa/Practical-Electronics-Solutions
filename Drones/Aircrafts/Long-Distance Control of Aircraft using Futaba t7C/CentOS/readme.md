@@ -55,10 +55,6 @@ client.on_message = on_message
 client.loop_forever()
 
 ```
-2. Start Mosquitto:
-```bash
-sudo yum install mosquitto
-```
 This code creates an MQTT client instance, connects to the Mosquitto broker, publishes a message to a topic, subscribes to another topic, and defines a callback function to handle incoming messages on that topic.
 
 It is important to test your Mosquitto server code thoroughly and to ensure that your Python code integrates correctly with the other components of your project, such as the SIM800L module and the R617FS receiver module. With careful planning and testing, you can build a robust and reliable system for long-distance control of an aircraft using SMS commands and a server-based architecture.
