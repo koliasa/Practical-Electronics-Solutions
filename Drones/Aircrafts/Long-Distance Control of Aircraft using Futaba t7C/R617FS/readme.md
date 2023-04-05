@@ -1,4 +1,4 @@
 To receive telemetry data from the R617FS, you can connect it to one of the available UART ports on the ESP8266. You can then use the uart.on() function to set up a callback that gets called whenever data is received on the UART port. In the callback function, you can parse the incoming telemetry data and publish it to an MQTT broker using the Paho MQTT Lua library.
 
---- 
+-- 
 In this code, we first set up the UART port with a baud rate of 57600, 8 data bits, no parity, and 1 stop bit. We then create an MQTT client with a client ID, a keepalive time of 120 seconds, and authentication credentials. We also set up a callback for when the MQTT client connects to the broker.  Next, we use the uart.on() function to set up a callback that gets called whenever data is received on the UART port. Inside the callback, we parse the incoming telemetry data and publish it to the MQTT broker using the mqtt.Client:publish() function.  Finally, we connect to the MQTT broker using the mqtt.Client:connect() function. 
