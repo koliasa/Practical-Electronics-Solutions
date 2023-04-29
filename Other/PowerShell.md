@@ -68,7 +68,7 @@ clip < ~/.ssh/
 git clone git@github.com:<ваше-ім'я-користувача>/<назва-репозиторію>.git
 ```
 ```bash
-GIT_SSH_COMMAND="ssh -i D:\www\w3c\git" git clone git@github.com:koliasa/w3c.git
+GIT_SSH_COMMAND="ssh -i ~/.ssh/git.pub" git clone git@github.com:koliasa/w3c.git C:\www\git
 ```
 ```bash
 set GIT_SSH_COMMAND=ssh -i D:\www\w3c\git
