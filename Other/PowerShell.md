@@ -26,10 +26,6 @@ cat ~/.ssh/
 ```bash
 ssh -T git@github.com
 ```
-Щоб перевірити з'єднання з репозиторієм на GitHub
-```bash
-ssh -T git@github.com
-```
 Налаштувати Git на використання SSH замість HTTPS. Це можна зробити за допомогою команди:
 ```bash
 git ls-remote https://github.com/koliasa/w3c.git
