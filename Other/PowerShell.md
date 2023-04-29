@@ -2,6 +2,7 @@
 ```bash
 Invoke-Expression "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 ```
+## Генеруєм
 ssh-agent.cmd
 ```bash
 @echo off
@@ -25,6 +26,17 @@ cat ~/.ssh/
 ```bash
 ssh -T git@github.com
 ```
+Щоб перевірити з'єднання з репозиторієм на GitHub
+```bash
+ssh -T git@github.com
+```
+Налаштувати Git на використання SSH замість HTTPS. Це можна зробити за допомогою команди:
+```bash
+git ls-remote https://github.com/koliasa/w3c.git
+git ls-remote git@github.com:koliasa/w3c.git
+```
+
+## Перевіряємо служби
 Переконайтеся, що служба ssh-agent включена. Введіть наступну команду в командному рядку:
 ```bash
 Get-Service ssh-agent | Select-Object Status
@@ -48,9 +60,18 @@ ssh-add ~/.ssh/
 ```bash
 clip < ~/.ssh/
 ```
-Додайте змінені файли до репозиторію Git
+
+## Дії
+Щоб склонувати репозиторій з використанням SSH ключа, потрібно виконати таку команду:
 ```bash
-git add .
+git clone git@github.com:<ваше-ім'я-користувача>/<назва-репозиторію>.git
+```
+```bash
+GIT_SSH_COMMAND="ssh -i D:\www\w3c\git" git clone git@github.com:koliasa/w3c.git
+```
+```bash
+set GIT_SSH_COMMAND=ssh -i D:\www\w3c\git
+git clone git@github.com:koliasa/w3c.git
 ```
 Зафіксуйте зміни в репозиторії Git, додавши коментар про зміни.
 ```bash
@@ -60,7 +81,12 @@ git commit -m "Додав файли для синхронізації з GitHub
 ```bash
 git push
 ```
+
+
 Додайте змінені файли до репозиторію Git
+```bash
+git add .
+```
 ```bash
 git pull
 ```
