@@ -73,6 +73,10 @@ GIT_SSH_COMMAND="ssh -i D:\www\w3c\git" git clone git@github.com:koliasa/w3c.git
 set GIT_SSH_COMMAND=ssh -i D:\www\w3c\git
 git clone git@github.com:koliasa/w3c.git
 ```
+Для клонування репозиторію з використанням SSH ключа і збереження його в папку D:\www\w3c можна використати наступну команду:
+```bash
+GIT_SSH_COMMAND="ssh -i D:\www\w3c\git" git clone git@github.com:koliasa/w3c.git D:\www\w3c
+```
 Зафіксуйте зміни в репозиторії Git, додавши коментар про зміни.
 ```bash
 git commit -m "Додав файли для синхронізації з GitHub"
