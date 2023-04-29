@@ -2,6 +2,7 @@
 ```bash
 Invoke-Expression "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 ```
+## GIT шпаргалка
 ## Генеруєм
 ssh-agent.cmd
 ```bash
