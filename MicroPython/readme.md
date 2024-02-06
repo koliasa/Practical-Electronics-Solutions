@@ -1,8 +1,8 @@
-# ESP8266 NodeMCU V3 MicroPython v1.22.1 Basic Solutions
+# NodeMCU V3 MicroPython v1.22.1 Basic Solutions
 
 ## Description
 
-This repository contains basic solutions for the ESP8266 NodeMCU V3 using MicroPython v1.22.1. These solutions are designed to help developers get started with the ESP8266 NodeMCU V3 and provide a foundation for their own projects.
+This repository contains basic solutions for the NodeMCU V3 using MicroPython v1.22.1. These solutions are designed to help developers get started with the NodeMCU V3 and provide a foundation for their own projects.
 
 ## Features
 
@@ -18,7 +18,7 @@ This repository contains basic solutions for the ESP8266 NodeMCU V3 using MicroP
 ## Benefits
 
 - Save time and effort
-- Learn the basics of the ESP8266 NodeMCU V3
+- Learn the basics of the NodeMCU V3
 - Use the examples as a starting point for your own projects
 
 ## Getting Started
@@ -35,10 +35,10 @@ This repository is licensed under the MIT License.
 
 ## Keywords
 
-ESP8266, NodeMCU, MicroPython, basic solutions, blinking LED, sensors, motors, communication, easy to use, well-documented, extensible
+NodeMCU, MicroPython, basic solutions, blinking LED, sensors, motors, communication, easy to use, well-documented, extensible
 
 ## Additional Information
 
-This repository is intended to be a resource for developers who are new to the ESP8266 NodeMCU V3. The examples in this repository are designed to be simple and easy to understand, and they can be used as a starting point for more complex projects.
+This repository is intended to be a resource for developers who are new to the NodeMCU V3. The examples in this repository are designed to be simple and easy to understand, and they can be used as a starting point for more complex projects.
 
-The ESP8266 NodeMCU V3 is a powerful development platform that can be used for a variety of applications. This repository provides a foundation for developers who want to get started with the ESP8266 NodeMCU V3 and learn the basics of MicroPython.
+The NodeMCU V3 is a powerful development platform that can be used for a variety of applications. This repository provides a foundation for developers who want to get started with the NodeMCU V3 and learn the basics of MicroPython.
