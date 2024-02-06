@@ -1,11 +1,11 @@
 # NodeMCU V3 MicroPython v1.22.1 Basic Solutions
 
-## Description  
+## Description
 
 This repository contains basic solutions for the NodeMCU V3 using MicroPython v1.22.1. These solutions are designed to help developers get started with the NodeMCU V3 and provide a foundation for their own projects.
 
 ## Features
-adfasdfa
+
 - A variety of basic solutions, including:
   - Blinking LED
   - Reading and writing to sensors
