@@ -27,7 +27,7 @@ while True:
     current_time = kyiv_time[3:6]
 
     # Форматування часу у рядок "HHMMSS"
-    time_str = "{:02}{:02}{:02}".format(current_time[0], current_time[1], current_time[2])
+    time_str = "{:02}-{:02}-{:02}".format(current_time[0], current_time[1], current_time[2])
 
     # Відображення часу на дисплеї
     tm.show(time_str)
