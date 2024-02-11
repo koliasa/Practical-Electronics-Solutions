@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [windows-2019, ubuntu-latest, centos-8]
+        os: [windows-10, windows-11, redhat-latest]
 
     steps:
     - name: Checkout Repository
