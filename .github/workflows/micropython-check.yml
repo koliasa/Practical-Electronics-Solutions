@@ -1,4 +1,4 @@
-name: MicroPython Code Validation
+name: MicroPython Code Validation by Ihor Koliasa
 
 on:
   push:
