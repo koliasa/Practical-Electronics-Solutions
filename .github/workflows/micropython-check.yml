@@ -1,4 +1,4 @@
-name: MicroPython Code Validation by Ihor Koliasa
+name: MicroPython Code Validation
 
 on:
   push:
@@ -7,51 +7,20 @@ on:
 
 jobs:
   validate_code:
-    runs-on: ubuntu-latest
+    runs-on: windows-10
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2.5.0  # Specify the latest version here
+      uses: actions/checkout@v2
 
-    - name: Validate Code
-      uses: docker://ubuntu:latest
+    - name: Validate MicroPython Code
+      uses: docker://python:3.8
 
       with:
         args: |
           echo "Running MicroPython code validation" &&
           cd MicroPython &&
-          apt-get update && apt-get install -y python3 ||
-          echo "No package manager found for the current OS" &&
-          python3 -m pip install esptool &&
-          python3 -m pip install -U platformio &&
-          python3 -m pip install \
-            adafruit-ampy \
-            bitarray \
-            bitstring \
-            certifi \
-            cffi \
-            charset-normalizer \
-            click \
-            colorama \
-            colorclass \
-            cryptography \
-            docopt \
-            ecdsa \
-            esptool \
-            idna \
-            intelhex \
-            packaging \
-            pip-upgrader \
-            pycparser \
-            pyreadline \
-            pyserial \
-            python-dotenv \
-            pyudev \
-            PyYAML \
-            reedsolo \
-            requests \
-            rshell \
-            setuptools \
-            six \
-            terminaltables \
-            urllib3
+          python -m pip install esptool &&
+          python -m pip install -U platformio &&
+          python -m pip install -r requirements.txt &&
+          platformio check -e esp8266
