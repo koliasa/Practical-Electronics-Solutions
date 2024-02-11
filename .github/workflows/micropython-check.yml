@@ -1,0 +1,33 @@
+name: MicroPython Code Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate_code:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [windows-2019, ubuntu-latest, centos-8]
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Validate Code
+      uses: docker://${{ matrix.os }}
+
+      with:
+        args: |
+          echo "Running MicroPython code validation" &&
+          cd MicroPython &&
+          apt-get update && apt-get install -y python3 ||
+          yum install -y python3 ||
+          choco install python3 -y ||
+          echo "No package manager found for the current OS" &&
+          python3 -m pip install esptool &&
+          python3 -m pip install -U platformio &&
+          platformio check -e esp8266
