@@ -1,7 +1,7 @@
 ## Example Screenshots with Yoast SEO:
 
 ![Disable Dev Mode](pic/Yoast-SEO-disable-dev-mode.png "Disable Developer Mode")
-![Enable Dev Mode](pic/Yoast-SEO-enable-dev-mode.png "Enable Developer Mode")
+<!--![Enable Dev Mode](pic/Yoast-SEO-enable-dev-mode.png "Enable Developer Mode")-->
 
 # Disabling Developer Mode in LocalWP
 
