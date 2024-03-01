@@ -1,5 +1,8 @@
 ## Example Screenshots with Yoast SEO:
 
+![Disable Dev Mode](pic/Yoast-SEO-disable-dev-mode.png "Disable Developer Mode")
+![Enable Dev Mode](pic/Yoast-SEO-enable-dev-mode.png "Enable Developer Mode")
+
 # Disabling Developer Mode in LocalWP
 
 LocalWP automatically sets the WordPress environment type to 'local' in the `wp-config.php` file, indicating a development environment. If you want to prevent this setting or automatically remove it, follow these steps:
