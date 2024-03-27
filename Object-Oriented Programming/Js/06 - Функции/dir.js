@@ -1,10 +1,8 @@
 function k1(name, lastName, years) {
-let nameLastname
-name = 'Ihor'
-lastName = 'Koliasa'
-years = true
-nameLastname = name + lastName
-
-
+  let nameLname;
+  name = "Ihor";
+  lastName = "Koliasa";
+  years = true;
+  nameLname = name + lastName;
 }
-console.dir(k1)
+console.dir(k1);
