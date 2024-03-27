@@ -1,12 +1,10 @@
 const myCity = {
-    city: 'New York',
-}
+  city: "New York",
+};
 
-    myCity.popular =  true
-    myCity.country =  'USA'
+myCity.popular = true;
+myCity.country = "USA";
 
 //    delete myCity.popular
 
-console.log(myCity)
-
-
+console.log(myCity);

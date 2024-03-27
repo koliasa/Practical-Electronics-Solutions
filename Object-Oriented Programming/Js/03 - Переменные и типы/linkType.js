@@ -1,7 +1,7 @@
 const objectBeta = {
-    a: 20,
-    b: true
-}
+  a: 20,
+  b: true,
+};
 
-const copyOFBeta = objectBeta
-copyOFBeta.c = 'gama'
+const copyOFBeta = objectBeta;
+copyOFBeta.c = "gama";

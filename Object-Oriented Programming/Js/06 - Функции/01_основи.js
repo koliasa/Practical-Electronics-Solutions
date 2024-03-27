@@ -24,7 +24,7 @@ function dev(alpha, beta, gama) {
   beta = 20;
   gama = alpha + beta;
   console.log(omega);
-  return omega; // пісоя ретьорн не виконується нічого, цей запис повертає результат
+  return omega; // після нього не виконується нічого, цей запис повертає результат
 }
 dev();
 

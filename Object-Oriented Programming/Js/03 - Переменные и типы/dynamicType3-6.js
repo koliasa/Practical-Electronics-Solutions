@@ -1,6 +1,6 @@
-    function a() {
-        console.log('Opana opanapana')
-    }
-    a()
-    a = 10
-    a()
+function a() {
+  console.log("Opana opanapana");
+}
+a();
+a = 10;
+a();
