@@ -1,0 +1,21 @@
+ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/ihor/.ssh/id_rsa): atom
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in atom
+Your public key has been saved in atom.pub
+The key fingerprint is:
+SHA256:B2/p7qpyqxazAgREK8zgOy1tgQdQYKLtvZndlyXnwVw ihor@dev
+The key's randomart image is:
++---[RSA 4096]----+
+|OB.              |
+|X.+              |
+|+*.o    .     E  |
+|.o=..    o + .   |
+|.+.+.   S * *    |
+|. + o= . + * .   |
+| .  ++. . + .    |
+|  . + .  o       |
+|   o.+oo.oo      |
++----[SHA256]-----+

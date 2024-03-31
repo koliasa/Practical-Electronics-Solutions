@@ -1,0 +1,158 @@
+koliasa.com:84
+xn--80aja5axd.com:83
+ua.mba:82
+
+Видаліть nginx разом зі залежностями:
+sudo apt-get remove --purge nginx nginx-full nginx-common
+
+Очистіть кеш apt:
+sudo apt-get clean
+sudo apt-get autoclean
+
+Встановіть nginx знову з усіма залежностями:
+sudo apt-get update
+sudo apt-get install nginx
+
+Після виконання цих кроків ви повинні бути здатні перевірити версію Nginx за допомогою команди:
+sudo nginx -t
+sudo nginx -v
+
+Якщо після перевстановки nginx команда nginx -v не працює, то можливо ви повинні спочатку запустити nginx командою:
+sudo systemctl start nginx
+
+Якщо ця команда все ще не працює, переконайтеся, що шлях до виконуваного файлу nginx включений до вашого шляху пошуку виконуваних файлів. Ви можете перевірити шлях до виконуваного файлу nginx за допомогою команди:
+whereis nginx
+
+Ця команда покаже шлях до виконуваного файлу nginx, наприклад /usr/sbin/nginx. Переконайтеся, що цей шлях включений до вашого шляху пошуку виконуваних файлів за допомогою команди:
+echo $PATH
+
+Якщо шлях не включений, ви можете додати його до вашого шляху пошуку виконуваних файлів за допомогою команди:
+export PATH=$PATH:/usr/sbin
+Ця команда додасть /usr/sbin до вашого шляху пошуку виконуваних файлів, тому ви зможете виконати команду nginx -v. Якщо ви хочете зберегти цю змінну шляху, ви можете додати цю команду до свого файлу .bashrc, щоб вона автоматично виконувалася при кожному вході в систему.
+
+
+
+-----------------
+Створіть файли конфігурації для кожного домену в папці /etc/nginx/sites-available/:
+sudo nano /etc/nginx/sites-available/koliasa.com
+sudo nano /etc/nginx/sites-available/ua.mba
+sudo nano /etc/nginx/sites-available/xn--80aja5axd.com
+
+
+Вставте наступний код в файл /etc/nginx/sites-available/koliasa.com:
+server {
+    listen 80;
+    server_name koliasa.com;
+    root /var/www/koliasa;
+
+    index index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+-----/etc/nginx/sites-available/ua.mba
+server {
+    listen 80;
+    server_name ua.mba;
+    root /var/www/mba;
+
+    index index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+------/etc/nginx/sites-available/xn--80aja5axd.com
+server {
+    listen 80;
+    server_name xn--80aja5axd.com;
+    root /var/www/teneta;
+
+    index index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+-------
+sudo chown -R dev:www-data /var/www/koliasa
+sudo chmod -R 755 /var/www/koliasa
+-------
+Створіть символічні посилання на файли конфігурації в папці /etc/nginx/sites-enabled/:
+sudo ln -s /etc/nginx/sites-available/koliasa.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/ua.mba /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/xn--80aja5axd.com /etc/nginx/sites-enabled/
+
+Перезавантажте nginx:
+sudo systemctl restart nginx
+
+
+
+
+---* конф 80 порт
+server {
+    listen 80;
+    server_name koliasa.com;
+    root /var/www/koliasa;
+
+    index index.html index.htm index.php;
+
+    location / {
+        try_files $uri $uri/ /index.php$is_args$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
+    }
+}
+
+
+---* конф 443 порт
+server {
+    listen 443 ssl;
+    server_name koliasa.com;
+    root /var/www/koliasa;
+
+    ssl_certificate /etc/ssl/certs/cert.crt;
+    ssl_certificate_key /etc/ssl/private/key.key;
+
+    index index.html index.htm index.php;
+
+    location / {
+        try_files $uri $uri/ /index.php$is_args$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
+    }
+}

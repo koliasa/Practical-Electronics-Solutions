@@ -1,0 +1,21 @@
+ssh-keygen -t ecdsa -b 256
+Generating public/private ecdsa key pair.
+Enter file in which to save the key (/c/Users/dev/.ssh/id_ecdsa): atom
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in atom
+Your public key has been saved in atom.pub
+The key fingerprint is:
+SHA256:Pt+1edpQU1Fxk75TKdkr9zbXviURBTEe0F2nG7rw5lQ dev@DESKTOP-DAE6DPF
+The key's randomart image is:
++---[ECDSA 256]---+
+|            .o=B@|
+|             ..**|
+|              O o|
+|             + Bo|
+|        S . . E.=|
+|       .   o + B.|
+|        o   = * =|
+|         o = . BB|
+|          . o +**|
++----[SHA256]-----+

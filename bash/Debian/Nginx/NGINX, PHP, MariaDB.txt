@@ -1,0 +1,46 @@
+видалення з усіма залежностями
+sudo apt-get purge apache2*
+Тотальне видалення
+sudo apt-get remove --auto-remove apache2
+
+cd /var/www/koliasa
+wget https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+rm latest.tar.gz
+
+Debian 11.7 i386 встановити останню версію NGINX, PHP, MariaDB та інші компоненти для максимально швидкої роботи Wordpress на наступних доменах та окремих конфігураційних файлах: koliasa.com, ua.mba, xn--80aja5axd.com, які будуть в папці /var/www/koliasa, mba, teneta. Cloudflare tunel для того щоб сервер з віртуальним ІП працював в глобальній мережі як веб сервер для доменів koliasa.com, ua.mba, xn--80aja5axd.com на різних Cloudflare акаунтах
+
+
+sudo apt update
+
+sudo apt install nginx php mariadb-server
+
+/etc/php/8.2/cli/php.ini
+/etc/php/8.2/mods-available/readline.ini
+/etc/php/8.2/mods-available/readline.ini
+/etc/php/8.2/apache2/php.ini
+
+sudo mkdir /var/www/koliasa
+sudo mkdir /var/www/mba
+sudo mkdir /var/www/teneta
+
+nginx -v
+php -v
+mariadb --version
+
+nginx/1.22.1
+PHP 8.2.5
+mariadb  Ver 15.1
+
+--- *MariaDB
+root passwd
+
+запускаємо менеджер першочергових налаштувань
+sudo mysql_secure_installation
+
+
+FLUSH PRIVILEGES; ALTER USER 'root'@'localhost' IDENTIFIED BY 'passwd';
+sudo killall -u mysql
+sudo killall -u mariadb
+sudo systemctl stop mariadb
+sudo apt-get install mariadb-server

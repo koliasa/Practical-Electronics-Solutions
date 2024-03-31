@@ -1,0 +1,32 @@
+ssh-keygen -t rsa
+ssh-keygen -t rsa -b 2048
+ssh-keygen -t rsa -b 4096
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+
+scp C:\Users\ihor\OneDrive\Документи\Atom\FreeBSD\ssh\atom.pub dev@192.168.1.222:~/.ssh/
+cat ~/.ssh/atom.pub >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+
+sudo nano /etc/ssh/sshd_config
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+
+
+sudo service sshd status
+sudo service sshd restart
+
+#Win Terminal
+---------------------------------------------------
+            {
+                "commandline": "ssh -i C:\\Users\\ihor\\OneDrive\\\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0438\\Atom\\FreeBSD\\ssh\\atom dev@192.168.1.222",
+                "guid": "{11111111-0000-1111-0000-111111111111}",
+                "name": "Atom"
+            },
+
+---------------------------------------------------
+
+*WIN
+ssh-keygen -R 192.168.1.222
+ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_ip
+ssh-copy-id -i C:\Users\ihor\OneDrive\Документи\Atom\FreeBSD\ssh\atom.pub dev@192.168.1.222

@@ -1,0 +1,6 @@
+[Match]
+Name=wlp3s0
+
+[Network]
+# Для відключення інтерфейсу встановлюємо значення "false" для опції "NetworkInterface"
+ConfigureWithoutCarrier=false

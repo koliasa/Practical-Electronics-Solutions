@@ -1,0 +1,10 @@
+ssh -i "C:\Users\k1\.ssh\koliasa" k1@192.168.1.222
+
+
+
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998e100000}",
+                "name": "NAS - Debian ",
+                "commandline": "ssh -i \"C:\\\\Users\\\\k1\\\\.ssh\\\\koliasa\" k1@192.168.1.222",
+                "icon" : "C:\\Users\\k1\\.ssh\\debian.png"
+            },
