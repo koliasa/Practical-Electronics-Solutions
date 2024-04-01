@@ -66,7 +66,6 @@ Practical-Electronics-Solutions
 │  │  ├─ Оновити систему та порти на FreeBSD.txt
 │  │  ├─ Перевірка жорсткого диска на наявність поганих секторів.txt
 │  │  └─ Тунель.txt
-│  ├─ git.txt
 │  ├─ ssh
 │  │  ├─ debian.png
 │  │  └─ FAQ.txt
@@ -93,6 +92,13 @@ Practical-Electronics-Solutions
 │  ├─ Базові команди.txt
 │  ├─ Довідка.txt
 │  └─ Мережа.txt
+├─ Git
+│  ├─ delete all commit history.md
+│  └─ git.md
+├─ Object-oriented programming
+│  ├─ JS
+│  │  └─ readme.md
+│  └─ readme.md
 └─ README.md
 
 ```
