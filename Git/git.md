@@ -41,38 +41,44 @@ git clone
 Завантажити зміни
 
 ```bash
-pull
+git pull
 ```
 
 Відвантажити зміни
 
 ```bash
-push
+git push
 ```
 
 Показати всі гілки
 
 ```bash
-branch -a
+git branch -a
 ```
 
 Перейти до гілки
 
 ```bash
-checkout назва гілки
+git checkout назва гілки
 ```
 
 Підключитись до репозиторія
 
+```bash
 git remote add name url
+```
 
 Звязати гілки локальну з глобальною
 
-push -u origin назва branch
+```bash
+gitpush -u origin назва branch
+```
 
 Всі наступні відвантаження командою а також завантажити pull
 
-push
+```bash
+git push
+```
 
 **Ідентифікація з допомогою ключа**
 запустити агент
@@ -87,15 +93,34 @@ eval $(ssh-agent)
 ssh-add '/c/Users/k1/.ssh/koliasa'
 ```
 
+```bash
 git commit -m "Додавання нового файлу"
+```
+
+```bash
 git push git main
+```
 
 Оновити налаштування існуючого репо
+
+```bash
 git remote set-url origin https://github.com/koliasa/git.git
+```
+
 синхронізація
+
+```bash
 git remote add origin https://github.com/koliasa/git.git
+```
 
 Переглянути історію коментарів
+
+```bash
 git log
+```
+
 оновити віддалений репозиторій
+
+```bash
 git push --force
+```
