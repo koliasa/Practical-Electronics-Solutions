@@ -97,6 +97,12 @@ Practical-Electronics-Solutions
 │  └─ git.md
 ├─ Object-oriented programming
 │  ├─ JS
+│  │  ├─ 08-оператори
+│  │  │  ├─ 01_оператори список.md
+│  │  │  ├─ 01_оператори таблиця.md
+│  │  │  ├─ 01_оператори.js
+│  │  │  ├─ example.js
+│  │  │  └─ typeof.js
 │  │  └─ readme.md
 │  └─ readme.md
 └─ README.md
