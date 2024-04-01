@@ -1,2 +1,0 @@
-ssh -vT git@github.com
-ssh -vT -i "C:/Users/k1/.ssh/koliasa" git@github.com
