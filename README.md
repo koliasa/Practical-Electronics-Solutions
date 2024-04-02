@@ -10,6 +10,8 @@ To get started with the solutions in this repository, you will need to have some
 
 To use the solutions, simply clone this repository and browse through the directories to find the solution that best fits your needs. Each solution is contained in a separate directory and includes a README file with instructions on how to use it.
 
+Join the DEV Discord server: [https://dsc.gg/object-oriented-programming](https://dsc.gg/object-oriented-programming)
+
 ```
 Practical-Electronics-Solutions
 ├─ bash
@@ -102,5 +104,3 @@ Practical-Electronics-Solutions
 └─ README.md
 
 ```
-
-[![Join the DEV Discord server](https://discordapp.com/api/guilds/789012345678901234/widget.png?style=banner)](https://dsc.gg/object-oriented-programming)

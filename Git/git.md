@@ -124,3 +124,5 @@ git log
 ```bash
 git push --force
 ```
+
+Join the DEV Discord server: [https://dsc.gg/object-oriented-programming](https://dsc.gg/object-oriented-programming)
