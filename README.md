@@ -10,6 +10,8 @@ To get started with the solutions in this repository, you will need to have some
 
 To use the solutions, simply clone this repository and browse through the directories to find the solution that best fits your needs. Each solution is contained in a separate directory and includes a README file with instructions on how to use it.
 
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)
+
 ```
 Practical-Electronics-Solutions
 ├─ bash

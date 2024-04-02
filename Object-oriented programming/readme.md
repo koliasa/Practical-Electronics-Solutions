@@ -15,3 +15,5 @@ This section contains information about Object-Oriented Programming (OOP), one o
 5. **Best Practices**: Learn about best practices and guidelines for writing clean, maintainable, and efficient object-oriented code.
 
 6. **Examples and Exercises**: Practice your understanding of OOP with examples and exercises provided in this section.
+
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)

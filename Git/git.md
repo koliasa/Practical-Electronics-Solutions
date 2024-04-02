@@ -124,3 +124,5 @@ git log
 ```bash
 git push --force
 ```
+
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)

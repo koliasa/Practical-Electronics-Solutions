@@ -24,3 +24,5 @@ If you want to delete all your commit history but keep the code in its current s
    ```
    git push -f origin main
    ```
+
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)
