@@ -27,3 +27,5 @@ This section covers JavaScript, a versatile programming language commonly used f
 11. **Testing and Debugging**: Learn about testing methodologies and tools for JavaScript, as well as techniques for debugging JavaScript code.
 
 12. **Examples and Exercises**: Practice your JavaScript skills with examples and exercises provided throughout this section.
+
+Join the Discord server: [https://dsc.gg/object-oriented-programming](https://dsc.gg/object-oriented-programming)

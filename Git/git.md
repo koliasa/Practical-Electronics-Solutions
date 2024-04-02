@@ -125,4 +125,4 @@ git log
 git push --force
 ```
 
-Join the DEV Discord server: [https://dsc.gg/object-oriented-programming](https://dsc.gg/object-oriented-programming)
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)
