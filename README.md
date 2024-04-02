@@ -1,33 +1,18 @@
 # Practical Electronics Solutions
 
-Welcome to the Practical Electronics Solutions repository, a collection of Arduino projects and examples designed to solve practical problems and improve everyday life. Here you'll find code and hardware designs for projects ranging from home automation and security to environmental monitoring and energy management.
+Welcome to the Practical Electronic Solutions repository! Here you will find a collection of ready-to-use code examples and solutions for automation, dispatching, Internet of Things (IoT), and artificial intelligence (AI) applications. These solutions can be used in both private and commercial sectors.
 
-## Examples
-
-- **Smart Home Security:** A project that uses motion sensors and an Arduino board to detect intruders and send alerts to your phone.
-
-- **Energy Monitor:** A project that monitors your home's energy consumption and displays it on an LCD screen. You can use the data to optimize your energy usage and save money.
-
-- **Indoor Air Quality Monitor:** A project that measures the temperature, humidity, and air quality in your home and displays the data on a dashboard. You can use the data to improve your indoor air quality and reduce health risks.
-
-- **Automatic Plant Watering System:** A project that uses a soil moisture sensor and a water pump to water your plants automatically. You can set the watering schedule and adjust the water amount to keep your plants healthy.
+This is a collection of various repositories, each containing a collection of code examples and solutions for different programming languages and frameworks. Whether you're a beginner or an experienced developer, you're sure to find something useful here. Each repository is organized by topic or language, making it easy to find what you're looking for. Explore the repositories and find the code you need to improve your skills and speed up your development process.
 
 ## Getting Started
 
-To get started with the Practical Electronics Solutions repository, you'll need an Arduino board and the Arduino IDE software. You can download the IDE from the official Arduino website: https://www.arduino.cc/.
+To get started with the solutions in this repository, you will need to have some basic knowledge of electronics, including circuit design and analysis. You will also need some experience with programming, particularly in C or C++, Python, Jupyter, and other object-oriented and markup languages.
 
-Once you have the IDE installed, you can clone the repository and explore the examples. Each example is contained in its own folder, with a README file that explains how to set up and run the project.
-
-## Contributing
-
-We welcome contributions to the Practical Electronics Solutions repository! If you have a project or example that you'd like to share, please submit a pull request. We also appreciate feedback and suggestions for new projects or improvements to existing ones.
-
-Let's use the power of electronics and Arduino to create practical solutions for everyday life! 💡
+To use the solutions, simply clone this repository and browse through the directories to find the solution that best fits your needs. Each solution is contained in a separate directory and includes a README file with instructions on how to use it.
 
 ```
 Practical-Electronics-Solutions
 ├─ bash
-│  ├─ ASCII.dockerfile
 │  ├─ Debian
 │  │  ├─ 01_базові команди-DESKTOP-DAE6DPF.txt
 │  │  ├─ 01_базові команди.txt
@@ -77,7 +62,8 @@ Practical-Electronics-Solutions
 │  │     ├─ 50-motd-news
 │  │     ├─ 60-unminimize
 │  │     ├─ 91-release-upgrade
-│  │     └─ 92-unattended-upgrades
+│  │     ├─ 92-unattended-upgrades
+│  │     └─ ASCII
 │  ├─ Windows
 │  │  ├─ debian.png
 │  │  ├─ ssh
@@ -103,6 +89,14 @@ Practical-Electronics-Solutions
 │  │  │  ├─ 01_оператори.js
 │  │  │  ├─ example.js
 │  │  │  └─ typeof.js
+│  │  ├─ 09-логічні оператори
+│  │  │  ├─ 01-логічніОператори.js
+│  │  │  ├─ example.js
+│  │  │  ├─ і.js
+│  │  │  ├─ або.js
+│  │  │  ├─ декілька і або.js
+│  │  │  ├─ ні-подвійне.js
+│  │  │  └─ ні.js
 │  │  └─ readme.md
 │  └─ readme.md
 └─ README.md
