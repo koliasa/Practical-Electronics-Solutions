@@ -16,4 +16,4 @@ This section contains information about Object-Oriented Programming (OOP), one o
 
 6. **Examples and Exercises**: Practice your understanding of OOP with examples and exercises provided in this section.
 
-Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/)
+Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https://dsc.gg/practical-electronics-solutions/ target="\_blank")
