@@ -102,3 +102,5 @@ Practical-Electronics-Solutions
 └─ README.md
 
 ```
+
+[![Join the DEV Discord server](https://discordapp.com/api/guilds/789012345678901234/widget.png?style=banner)](https://dsc.gg/object-oriented-programming)
