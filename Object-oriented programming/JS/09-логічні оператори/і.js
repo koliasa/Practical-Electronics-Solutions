@@ -29,10 +29,10 @@ let bothNonZero = e && f; // Якщо обидва a і b не є нульови
 
 console.log(bothNonZero); // Виведе 20, оскільки обидва a і b є true (не нульовими)
 
-let g = "ihor";
-let h = "petro";
+let g = 'ihor';
+let h = 'petro';
 
-let bothStartWithI = g.startsWith("i") && h.startsWith("i");
+let bothStartWithI = g.startsWith('i') && h.startsWith('i');
 
 console.log(bothStartWithI); // Виведе false, оскільки хоча g починається з 'i', h починається з 'p'
 // У цьому прикладі, ми перевіряємо, чи обидві змінні g та h починаються з літери 'i'. Вираз g.startsWith('i') повертає true, оскільки рядок 'ihor' починається з 'i'.

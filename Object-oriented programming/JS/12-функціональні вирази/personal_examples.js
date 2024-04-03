@@ -1,7 +1,7 @@
 // Визначаємо функцію, яка повертає об'єкт з ім'ям, датою та випадковою фамілією
 let namePlusDate = (name, date = new Date()) => {
   // Масив випадкових фамілій
-  let randomLastNames = ["Barabolja", "Inkvizutor", "LaBomba", "Koliasa"];
+  let randomLastNames = ['Barabolja', 'Inkvizutor', 'LaBomba', 'Koliasa'];
 
   // Випадково вибираємо фамілію з масиву
   let randomLastName =
@@ -15,4 +15,4 @@ let namePlusDate = (name, date = new Date()) => {
 };
 
 // Викликаємо функцію з ім'ям "Ihor" та виводимо результат у консоль
-namePlusDate("Ihor");
+namePlusDate('Ihor');

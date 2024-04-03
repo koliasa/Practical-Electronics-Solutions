@@ -11,10 +11,10 @@ console.log(isWeatherGood); // Виведе true, оскільки хоча б �
 // У цьому прикладі isWeatherGood буде true, оскільки isSunny має значення true. Оператор || дозволяє нам обирати перше істинне значення
 // серед isSunny та isRaining, тому весь вираз стає true.
 
-let g = "ihor";
-let h = "petro";
+let g = 'ihor';
+let h = 'petro';
 
-let atLeastOneStartsWithI = g.startsWith("i") || h.startsWith("i");
+let atLeastOneStartsWithI = g.startsWith('i') || h.startsWith('i');
 
 console.log(atLeastOneStartsWithI); // Виведе true, оскільки g починається з 'i'
 // Тут, оскільки g починається з 'i', вираз g.startsWith('i') повертає true, і ми вже знаємо,
