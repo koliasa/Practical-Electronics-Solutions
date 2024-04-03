@@ -55,7 +55,7 @@ Practical-Electronics-Solutions
 │  │  └─ Тунель.txt
 │  ├─ ssh
 │  │  ├─ debian.png
-│  │  └─ FAQ.txt
+│  │  └─ faq.md
 │  ├─ Tunnel.txt
 │  ├─ Ubuntu
 │  │  └─ update-motd.d
@@ -68,9 +68,6 @@ Practical-Electronics-Solutions
 │  │     └─ ASCII
 │  ├─ Windows
 │  │  ├─ debian.png
-│  │  ├─ ssh
-│  │  │  ├─ create key.txt
-│  │  │  └─ install key.txt
 │  │  ├─ Windows-Terminal-Settings.json
 │  │  └─ wol
 │  │     ├─ nas.ps1
@@ -82,7 +79,8 @@ Practical-Electronics-Solutions
 │  └─ Мережа.txt
 ├─ Git
 │  ├─ delete all commit history.md
-│  └─ git.md
+│  ├─ git.md
+│  └─ відновлення.md
 ├─ Object-oriented programming
 │  ├─ JS
 │  │  ├─ 08-оператори
@@ -99,6 +97,22 @@ Practical-Electronics-Solutions
 │  │  │  ├─ декілька і або.js
 │  │  │  ├─ ні-подвійне.js
 │  │  │  └─ ні.js
+│  │  ├─ 10-оператор ділення
+│  │  │  ├─ example.js
+│  │  │  ├─ обєднати обєкти.js
+│  │  │  └─ розгортання обєктів.js
+│  │  ├─ 11-конкатенація рядків
+│  │  │  ├─ example.js
+│  │  │  ├─ завдання.js
+│  │  │  └─ обєднання(конкатенація).js
+│  │  ├─ 12-функціональні вирази
+│  │  │  ├─ 12.js
+│  │  │  ├─ example.js
+│  │  │  ├─ personal_examples.js
+│  │  │  ├─ personal_examples1.js
+│  │  │  ├─ призначення параметрів.js
+│  │  │  ├─ скорочення стрілочних функцій.js
+│  │  │  └─ стрілочні функції.js
 │  │  └─ readme.md
 │  └─ readme.md
 └─ README.md
