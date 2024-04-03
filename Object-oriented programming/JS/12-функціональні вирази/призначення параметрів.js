@@ -14,12 +14,11 @@ const sum1 = (value, value2 = 1) => value * value2;
 console.log(sum1(20)); // Очікуваний результат: 20
 console.log(sum1(15, 2)); // Очікуваний результат: 30
 
-let sum3 = (firstName = "Ihor", lastName = "Koliasa") =>
-  `${firstName} ${lastName}`;
+let sum3 = (firstName = 'Ihor', lastName = 'Koliasa') => `${firstName} ${lastName}`;
 console.log(sum3()); // коли треба прінтанути функцію то потрібно вказати дужки, так як це не являється об'єктом
 
-let sum4 = (name = "", lName = "") => `${name} ${lName}`;
-console.log(sum4("Ігор", "Коляса"));
+let sum4 = (name = '', lName = '') => `${name} ${lName}`;
+console.log(sum4('Ігор', 'Коляса'));
 
-const sum5 = (imja = "", familija = "") => familija + " " + imja;
-console.log(sum5("1", "k"));
+const sum5 = (imja = '', familija = '') => familija + ' ' + imja;
+console.log(sum5('1', 'k'));

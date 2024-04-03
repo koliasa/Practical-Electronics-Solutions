@@ -1,9 +1,9 @@
 const buttonInfo = {
-  test: "Buy",
+  test: 'Buy',
 };
 
 const buttonStyle = {
-  color: "Red",
+  color: 'Red',
   innerWidth: 200,
   innerHeight: 300,
 };

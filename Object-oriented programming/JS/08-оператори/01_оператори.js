@@ -26,10 +26,10 @@ console.log(c);
 // null
 // Boolean(value) -> false
 
-let value = ""; // Приклад хибного значення
+let value = ''; // Приклад хибного значення
 
 if (value) {
-  console.log("Значення не є пустим рядком або falsy значенням");
+  console.log('Значення не є пустим рядком або falsy значенням');
 } else {
-  console.log("Значення є пустим рядком або falsy значенням");
+  console.log('Значення є пустим рядком або falsy значенням');
 }
