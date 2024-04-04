@@ -82,7 +82,14 @@ Practical-Electronics-Solutions
 │  ├─ git.md
 │  └─ відновлення.md
 ├─ Object-oriented programming
+│  ├─ GO
+│  │  ├─ example.go
+│  │  ├─ example2.go
+│  │  └─ prettierrc-need-check
+│  │     ├─ .prettierrc
+│  │     └─ prettierrc.md
 │  ├─ JS
+│  │  ├─ .prettierrc
 │  │  ├─ 08-оператори
 │  │  │  ├─ 01_оператори список.md
 │  │  │  ├─ 01_оператори таблиця.md
@@ -113,6 +120,31 @@ Practical-Electronics-Solutions
 │  │  │  ├─ призначення параметрів.js
 │  │  │  ├─ скорочення стрілочних функцій.js
 │  │  │  └─ стрілочні функції.js
+│  │  ├─ 13-обробка помилок
+│  │  │  ├─ example.js
+│  │  │  └─ try-catch.js
+│  │  ├─ 14-інструкції
+│  │  │  ├─ example.js
+│  │  │  ├─ myFn.js
+│  │  │  └─ вираз інструкція.js
+│  │  ├─ 15-масиви
+│  │  │  ├─ 01_format-example.js
+│  │  │  ├─ add-elements-to-array.js
+│  │  │  ├─ arrays-vs-objects.js
+│  │  │  ├─ forEach.js
+│  │  │  ├─ map.js
+│  │  │  ├─ method-array.js
+│  │  │  └─ reading-array-example.js
+│  │  ├─ examples
+│  │  │  ├─ import-export
+│  │  │  │  ├─ export.js
+│  │  │  │  └─ import.js
+│  │  │  ├─ primitive-data
+│  │  │  │  ├─ const-let.js
+│  │  │  │  ├─ function-calc.js
+│  │  │  │  └─ function-sum.js
+│  │  │  └─ print-data-myName.js
+│  │  ├─ prettierrc.md
 │  │  └─ readme.md
 │  └─ readme.md
 └─ README.md
