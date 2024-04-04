@@ -1,11 +1,11 @@
 const infoPlusName = {
-  info: 'Мене звати',
-  name: 'Ігор',
+    info: 'Мене звати',
+    name: 'Ігор',
 };
 
 const infoMyPlaces = {
-  infoPlaces: 'Я живу в місті:',
-  town: 'Тернопіль',
+    infoPlaces: 'Я живу в місті:',
+    town: 'Тернопіль',
 };
 
 // варіант з об'єднанням рядків

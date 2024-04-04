@@ -6,7 +6,7 @@
 // Приклад:
 // Оголошена функція
 function greet(name) {
-  console.log('Привіт, ' + name + '!');
+    console.log('Привіт, ' + name + '!');
 }
 
 // Виклик функції
@@ -19,7 +19,7 @@ greet('Ігор'); // Виведе: Привіт, Ігор!
 // Приклад:
 // Функціональний вираз
 const greet1 = function (name) {
-  process.stdout.write('Привіт, ' + name + '!\n');
+    process.stdout.write('Привіт, ' + name + '!\n');
 };
 
 // Виклик функції
