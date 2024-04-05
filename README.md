@@ -16,16 +16,16 @@ Join the Discord server: [https://dsc.gg/practical-electronics-solutions/](https
 Practical-Electronics-Solutions
 ├─ bash
 │  ├─ Debian
-│  │  ├─ 01_базові команди-DESKTOP-DAE6DPF.txt
-│  │  ├─ 01_базові команди.txt
-│  │  ├─ Debian.txt
-│  │  ├─ Last -v Ports.txt
-│  │  ├─ MariaDB.txt
+│  │  ├─ 01_базові команди-DESKTOP-DAE6DPF.bash
+│  │  ├─ 01_базові команди.bash
+│  │  ├─ Debian.bash
+│  │  ├─ Last -v Ports.bash
+│  │  ├─ MariaDB.bash
 │  │  ├─ Network
 │  │  │  ├─ enp4s0.network
 │  │  │  ├─ interfaces
-│  │  │  ├─ Interfaces.txt
-│  │  │  ├─ Interfaces12.05.2023.txt
+│  │  │  ├─ Interfaces.bash
+│  │  │  ├─ Interfaces12.05.2023.bash
 │  │  │  └─ wlp3s0.network
 │  │  ├─ Nginx
 │  │  │  ├─ NGINX, PHP, MariaDB.txt
@@ -37,26 +37,26 @@ Practical-Electronics-Solutions
 │  │  │     ├─ php.ini
 │  │  │     ├─ php8.1example.ini
 │  │  │     └─ phpinfo.php
-│  │  ├─ Power.txt
+│  │  ├─ Power.bash
 │  │  ├─ smb.conf
-│  │  ├─ Sudo.txt
-│  │  └─ Tunnel.txt
+│  │  ├─ Sudo.bash
+│  │  └─ Tunnel.bash
 │  ├─ FreeBSD
-│  │  ├─ Bash в якості оболонки командного рядка на FreeBSD.txt
-│  │  ├─ NFS.txt
-│  │  ├─ NGINX.txt
+│  │  ├─ Bash в якості оболонки командного рядка на FreeBSD.bash
+│  │  ├─ NFS.bash
+│  │  ├─ NGINX.bash
 │  │  ├─ ssh
 │  │  │  ├─ gen.txt
 │  │  │  └─ Install.txt
-│  │  ├─ Sudo для користувача dev.txt
-│  │  ├─ Вимкнення та перезавантаження системи в Freebsd.txt
-│  │  ├─ Оновити систему та порти на FreeBSD.txt
-│  │  ├─ Перевірка жорсткого диска на наявність поганих секторів.txt
-│  │  └─ Тунель.txt
+│  │  ├─ Sudo для користувача dev.bash
+│  │  ├─ Вимкнення та перезавантаження системи в Freebsd.bash
+│  │  ├─ Оновити систему та порти на FreeBSD.bash
+│  │  ├─ Перевірка жорсткого диска на наявність поганих секторів.bash
+│  │  └─ Тунель.bash
 │  ├─ ssh
 │  │  ├─ debian.png
 │  │  └─ faq.md
-│  ├─ Tunnel.txt
+│  ├─ Tunnel.bash
 │  ├─ Ubuntu
 │  │  └─ update-motd.d
 │  │     ├─ 00-header
@@ -65,7 +65,7 @@ Practical-Electronics-Solutions
 │  │     ├─ 60-unminimize
 │  │     ├─ 91-release-upgrade
 │  │     ├─ 92-unattended-upgrades
-│  │     └─ ASCII
+│  │     └─ ASCII.bash
 │  ├─ Windows
 │  │  ├─ debian.png
 │  │  ├─ Windows-Terminal-Settings.json
@@ -73,23 +73,38 @@ Practical-Electronics-Solutions
 │  │     ├─ nas.ps1
 │  │     ├─ wol.txt
 │  │     └─ wolcmd.exe
-│  ├─ Інструкція з доступу по ключах.txt
-│  ├─ Базові команди.txt
-│  ├─ Довідка.txt
-│  └─ Мережа.txt
+│  ├─ Інструкція з доступу по ключах.bash
+│  ├─ Базові команди.bash
+│  ├─ Довідка.bash
+│  └─ Мережа.bash
 ├─ Git
 │  ├─ delete all commit history.md
 │  ├─ git.md
 │  └─ відновлення.md
 ├─ Object-oriented programming
 │  ├─ GO
-│  │  ├─ example.go
-│  │  ├─ example2.go
+│  │  ├─ 01-Examples
+│  │  ├─ Calculator
+│  │  │  ├─ calculator.exe
+│  │  │  ├─ calculator.go
+│  │  │  └─ readme.md
 │  │  └─ prettierrc-need-check
 │  │     ├─ .prettierrc
 │  │     └─ prettierrc.md
 │  ├─ JS
 │  │  ├─ .prettierrc
+│  │  ├─ 01-examples
+│  │  │  ├─ calculator.js
+│  │  │  ├─ destructuring.js
+│  │  │  ├─ if-else-no-func.js
+│  │  │  ├─ import-export
+│  │  │  │  ├─ export.js
+│  │  │  │  └─ import.js
+│  │  │  ├─ primitive-data
+│  │  │  │  ├─ const-let.js
+│  │  │  │  ├─ function-calc.js
+│  │  │  │  └─ function-sum.js
+│  │  │  └─ print-data-myName.js
 │  │  ├─ 08-оператори
 │  │  │  ├─ 01_оператори список.md
 │  │  │  ├─ 01_оператори таблиця.md
@@ -129,21 +144,15 @@ Practical-Electronics-Solutions
 │  │  │  └─ вираз інструкція.js
 │  │  ├─ 15-масиви
 │  │  │  ├─ 01_format-example.js
+│  │  │  ├─ 02_method-array.js
 │  │  │  ├─ add-elements-to-array.js
 │  │  │  ├─ arrays-vs-objects.js
 │  │  │  ├─ forEach.js
 │  │  │  ├─ map.js
-│  │  │  ├─ method-array.js
 │  │  │  └─ reading-array-example.js
-│  │  ├─ examples
-│  │  │  ├─ import-export
-│  │  │  │  ├─ export.js
-│  │  │  │  └─ import.js
-│  │  │  ├─ primitive-data
-│  │  │  │  ├─ const-let.js
-│  │  │  │  ├─ function-calc.js
-│  │  │  │  └─ function-sum.js
-│  │  │  └─ print-data-myName.js
+│  │  ├─ 16-деструктуризація
+│  │  │  ├─ 01_destructuring.js
+│  │  │  └─ destructuring-profile.js
 │  │  ├─ prettierrc.md
 │  │  └─ readme.md
 │  └─ readme.md
